@@ -1,2 +1,13 @@
 # Todolist
-Created with CodeSandbox
+##리액트를 활용하여 만든 간단한 To do list입니다. 사용자는 홈, 목록보기, 작성하기 탭을 클릭할 수 있으며, 작성하기 탭에서 to do list를 추가할 수 있습니다.
+
+##주요 기능 -라우터 활용하여 페이지 생성, LocalStorage에 to do list 저장하기, 저장한 list 보기
+
+##기술 스택 -HTML5, CSS3, React, React Router
+
+##폴더 구조 
+
+
+##설치 및 실행 방법 1.프로젝트 폴더를 클론하거나 다운로드 2.index.html 파일을 브라우저에서 열기
+
+##개선 및 추가 기능 사항 - 반응형 레이아웃 반영, 목록에서 바로 수정할 수 있게 기능 반영
