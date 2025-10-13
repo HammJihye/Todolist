@@ -1,0 +1,116 @@
+.App {
+  font-family: sans-serif;
+  text-align: center;
+}
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+ul,
+ol {
+  list-style: none;
+}
+
+a {
+  text-decoration: none;
+  color: inherit;
+}
+
+button {
+  all: unset;
+  cursor: pointer;
+}
+
+body {
+  background-color: #fcf9ea;
+}
+
+.header {
+  padding: 5vh 5vh 0 5vh;
+}
+
+.header-nav {
+  margin-top: 2vh;
+  display: flex;
+  gap: 5px;
+}
+
+.header-nav li {
+  flex: 1;
+}
+
+.header-nav li a {
+  display: block;
+  padding: 2vh 0;
+  background-color: #badfdb;
+  border-radius: 2em;
+}
+
+.header-nav li a:hover {
+  font-weight: bold;
+}
+
+.main-wrapper {
+  width: 90%;
+  min-height: 50vh;
+  margin: 2vh auto;
+  padding: 3vh;
+  background-color: #ffbdbd;
+  border: 1px solid #ffbdbd;
+  border-radius: 1em;
+}
+
+.content-title {
+  margin-bottom: 2vh;
+}
+
+.item-box {
+  display: flex;
+  flex-direction: column;
+  padding: 2vh 0;
+  gap: 10px;
+}
+
+.item-box li {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.item-box li button {
+  padding: 0.3em;
+  background-color: #ffa4a4;
+}
+
+.item-box li button:hover {
+  font-weight: bold;
+}
+
+.form-wrapper {
+  display: flex;
+  justify-content: center;
+  padding: 10px 0;
+  border: 1px solid white;
+  border-radius: 3em;
+  background-color: white;
+}
+
+.form-wrapper input {
+  flex: 0 0 80%;
+  padding: 10px;
+  border: none;
+}
+
+.form-wrapper button {
+  padding: 3px;
+  background-color: black;
+  color: white;
+}
+
+.btn-wrapper {
+  display: flex;
+  gap: 5px;
+}
